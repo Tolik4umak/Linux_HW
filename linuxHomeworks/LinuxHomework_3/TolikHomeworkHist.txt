@@ -1,0 +1,11 @@
+   0 pwd
+   1 ls
+   2 date > TolikHomework.txt
+   3 df -h
+   4 df -h | awk '{print$3}' | head -2 >> TolikHomework.txt 
+   5 cat TolikHomework.txt 
+   6 history | tail -5 >> TolikHomework.txt 
+   7 cat TolikHomework.txt 
+   8 cat /proc/cpuinfo | grep vendor >> TolikHomework.txt 
+   9 nano TolikHomework.txt 
+  10 history > TolikHomeworkHist.txt 

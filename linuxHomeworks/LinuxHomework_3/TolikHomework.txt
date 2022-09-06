@@ -1,0 +1,9 @@
+Wed Aug 24 23:47:36 UTC 2022
+Used
+2.3G
+   2 date > TolikHomework.txt
+   3 df -h
+   4 df -h | awk '{print$3}' | head -2 >> TolikHomework.txt 
+   5 cat TolikHomework.txt 
+   6 history | tail -5 >> TolikHomework.txt 
+AuthenticX86
